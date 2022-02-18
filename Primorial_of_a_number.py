@@ -24,9 +24,9 @@ def num_primorial(n):
         while(N<=n):
             if is_prime(x):
                 primorial = x*primorial
-                x= x + 2
-                N=N + 1
-            else: x= x+2
+                x = x + 2
+                N = N + 1
+            else: x = x+2
         return primorial
     
 print(num_primorial(1))
